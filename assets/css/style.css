@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -267,6 +271,60 @@ body {
   display: none;
 }
 
+.emoji__section-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.emoji__section {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.emoji__section-title {
+  margin-bottom: 27px;
+}
+
+.emoji__tags {
+  text-align: center;
+}
+
+.button__emoji {
+  width: 97.2%;
+  margin: auto;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translate(0, -50px);
+      -ms-transform: translate(0, -50px);
+          transform: translate(0, -50px);
+  background: #212936;
+}
+
+.button__other-emoji {
+  margin: 0 15px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+}
+
 @media (min-width: 0px) and (max-width: 479px) {
   body {
     background: -o-linear-gradient(280.85deg, #4C4D52 2.67%, #2D2C32 96.34%);
@@ -338,7 +396,7 @@ body {
     -webkit-box-flex: 0;
         -ms-flex: none;
             flex: none;
-    margin: 0 0 30px 0;
+    margin: 0 5px 30px 0;
   }
   .keywords__minim-display {
     width: 85%;
@@ -382,6 +440,25 @@ body {
   .footer__categories {
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+  .emoji__section {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .for__emoji {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .emoji__tags {
+    display: none;
+  }
+  .button__emoji {
+    width: 89%;
+    margin: auto;
+    -webkit-transform: translate(-3px, -50px);
+        -ms-transform: translate(-3px, -50px);
+            transform: translate(-3px, -50px);
   }
 }
 
@@ -432,5 +509,13 @@ body {
   .footer__categories {
     -ms-flex-pack: distribute;
         justify-content: space-around;
+  }
+  .emoji__section {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .button__emoji {
+    width: 90%;
+    margin: auto;
   }
 }
