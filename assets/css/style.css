@@ -279,7 +279,7 @@ body {
   display: none;
 }
 
-.emoji__section-title {
+.secondpage__section-title {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -289,21 +289,21 @@ body {
   color: #ffffff;
 }
 
-.emoji__section {
+.secondpage__section {
   width: 90%;
   margin: auto;
   margin-top: 30px;
 }
 
-.emoji__section-title {
+.secondpage__section-title {
   margin-bottom: 27px;
 }
 
-.emoji__tags {
+.secondpage__tags {
   text-align: center;
 }
 
-.button__emoji {
+.button__secondpage {
   width: 100%;
   margin: auto;
   margin: 20px 0;
@@ -318,7 +318,7 @@ body {
           align-items: center;
 }
 
-.button__other-emoji {
+.button__other-secondpage {
   margin: 0 15px;
   font-family: Roboto;
   font-style: normal;
@@ -445,16 +445,16 @@ body {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  .emoji__section {
+  .secondpage__section {
     width: 100%;
     margin: 20px auto;
   }
-  .for__emoji {
+  .for__secondpage {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
-  .emoji__tags {
+  .secondpage__tags {
     display: none;
   }
 }
@@ -508,7 +508,7 @@ body {
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
-  .emoji__section {
+  .secondpage__section {
     width: 100%;
     margin: 20px auto;
   }
