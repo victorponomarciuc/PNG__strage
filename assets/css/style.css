@@ -304,7 +304,7 @@ body {
 }
 
 .button__emoji {
-  width: 90%;
+  width: 100%;
   margin: auto;
   margin: 20px 0;
   display: -webkit-box;
@@ -393,9 +393,6 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .other__also-section {
-    display: none;
-  }
   .also__img {
     -webkit-box-flex: 0;
         -ms-flex: none;
@@ -446,7 +443,7 @@ body {
         justify-content: space-around;
   }
   .emoji__section {
-    width: 90%;
+    width: 100%;
     margin: 20px auto;
   }
   .for__emoji {
@@ -509,7 +506,7 @@ body {
         justify-content: space-around;
   }
   .emoji__section {
-    width: 90%;
+    width: 100%;
     margin: 20px auto;
   }
 }
