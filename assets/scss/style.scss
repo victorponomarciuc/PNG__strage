@@ -126,6 +126,9 @@ body {
   margin: 0 auto;
   margin-left: 1.5%;
 }
+.also__home-page{
+  height: 730px;
+}
 .also__section-tilte {
   font-weight: normal;
   margin-left: 5px;
@@ -139,13 +142,17 @@ body {
   overflow: hidden;
   height: 530px;
 }
+.also__home-img{
+  height: 720px;
+}
 .also__img {
   width: 150px;
   height: 150px;
   background-image: url(../images/image_2.png);
   background-repeat: no-repeat;
+  background-position: 50% 50%;
   flex: auto;
-  margin: 0 30px 30px 0;
+  margin: 0 15px 30px 15px;
 }
 .other__also-section {
   width: 98.5%;
